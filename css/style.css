@@ -1,0 +1,201 @@
+body {
+	background-color: #ecf0f1;
+	margin: 0px;
+	font-family: 'roboto',sans-serif;
+}
+
+
+/*Bagian Header*/
+#header {
+	background: #000000;
+	height: 70px;
+	display: block;	
+}
+
+ul.nav {
+	float: left;
+	list-style: none;
+	margin-right: 600px;
+}
+
+ul.nav li {
+	float: right;
+}
+
+ul.nav li a{
+	color: white;
+	padding: 10px 30px;
+	margin: 0px;
+	display: block;
+	text-decoration: none;
+}
+
+ul.nav li a:hover{
+	background: #2980b9;
+}
+.logo{
+	width:200px;
+	height:60px;
+	padding-right:0px;
+	padding-top: 10px;
+
+
+
+}
+
+/*Bagian Intro*/
+#intro{
+	height: 550px;
+	/*width: 100%;*/
+	background-color: #16a085;
+	margin:px;
+	padding: 150px 120px 50px 120px;
+}
+
+.logointro{
+	float: right;
+	margin-left: 10px;
+	height: 325px;
+	width: 200px;
+	margin-right: 10px; 
+}
+
+#intro h1{
+	color: white;
+	font-size: 50px;
+}
+
+#intro p{
+	color: white;
+	font-size: 30px;
+	display: block;
+	width: 650px;
+}
+
+a.btn {
+	color: black;
+	text-decoration: none;
+	padding: 15px 25px;
+	background: white;
+	border-radius: 25px;
+}
+
+a.btn:hover {
+	background-color: #3498db;
+	color: white;
+}
+a.btn.green {
+	color:white;
+	background-color: #3498db;
+}
+a.btn.green:hover {
+	opacity:.8;
+}
+
+
+
+#product{
+	height: 550px;
+	padding: 50px 120px;
+}
+#product h1{
+	text-align: center;
+
+}
+img.item-gallery{
+	align: center;
+	width:25%;
+	display: block;
+	float:left;
+	margin-left:190px;
+	width: 700px;
+	filter: grayscale(80%);
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-o-filter:grayscale(100%);
+}
+
+img.item-gallery:hover{
+	filter : grayscale(0%);
+	-webkit-filter :grayscale(0%);
+	-moz-filter :grayscale(0%);
+	-o-filter :grayscale(0%);
+}
+
+/*contact*/
+#contact{
+	height: 450px;
+	padding: 50px 120px;
+	background-color: #c0392b;
+}
+
+.komentar{
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+form ul{
+	padding: 0px;
+	list-style: none;
+}
+
+form input[type=text]{
+
+	height: 40px;
+	padding-left: 15px;
+	margin-bottom: 10px;
+	width: 70%;
+	opacity: 0.7;
+	transition: opacity 0.5s, width 0,5s;
+
+
+}
+
+form input[type=text]:focus{
+	opacity: 0.9;
+	width: 75%;
+}
+
+form textarea {
+	padding: 10px 15px;
+	width: 70%;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	transition: opacity 0.5s, width 0.5s;
+}
+
+form textarea:focus{
+	opacity: 0.9;
+	width: 75%;
+}
+
+form button{
+	display: block;
+	width: 120px;
+	border-radius: 20px;
+	background-color: white;
+	border: none;
+	opacity: 0.8;
+}
+
+form button:hover{
+	opacity: 0.9;
+}
+
+.info img{
+	width: 50px;
+	height: 50px;
+	opacity: 0.7
+}
+
+.info img:hover{
+	opacity: 0.9;
+}
+
+#footer{
+	background-color: black;
+	text-align: center;
+	height: 80px;
+	color: white;
+}
